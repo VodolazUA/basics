@@ -1,0 +1,44 @@
+Привіт. Накидав приблизну роадмепку (в процесі можемо міняти).
+Подивись будь ласка, що ок, що не ок, що варто додати, відняти.
+Це базові речі, деплой, ширина і глибина буде далі, якщо зайде такий формат.
+
+  OOP
+    Small OOP principles tasks
+    Bicycle
+    Investment laboratory app (fast implementation, objects, functionality, refactoring)
+    Binance adapter (code organising)
+    Some app with saving in database
+
+  Framework
+    Simple app with views
+    Configuration/Run/Request way
+    Simple app with Databases
+    Simple app with Admin panel
+    Simple app with Background jobs (simple and scheduled)
+    Simple app with authentication
+    Simple app with authorization
+    Simple app with acceptance tests
+    Simple app with unit tests
+    API with acceptance and unit tests
+    Environment variables
+
+  Databases
+    - indexes
+    - N+1
+    - transactions
+
+***
+
+Перша задачка. Почнемо з бази, сорян, але тим легше і швидше прошвернемось.
+
+OOP/Small OOP principles tasks/Inheritance
+    - створи базовий клас Vehicle, а потім клас Car, який успадковує цей базовий клас
+    - створи інші класи електричний і ДВЗ автомобілі (певний тип автомобіля),
+        який успадковується від класу Car який повинен вміти:
+            - заправлятися/заряджатися,
+            - перемикати передачі, 
+            - рухатися, 
+            - сигналити (просто виводить текстові повідомлення:
+                "передача перемкнута на 2, 3, 4", "рухаюсь вперед" і т.п.)
+    - виклади на github, використовуючи SSH
+    - скинь мені в вайбер посилання на github репозиторій
