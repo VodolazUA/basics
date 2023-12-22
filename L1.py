@@ -1,4 +1,5 @@
 class Vehicle:
+    
     def __init__(self, name):
         self.name = name
         print(f"New vehicle has been created: <{name}>")
@@ -6,15 +7,14 @@ class Vehicle:
     def __str__(self):
         return self.name
 
-
-class Car(Vehicle):
-
     def drive(self):
         print(f"{self.name} is moving.")
     
     def stop(self):
         print(f"{self.name} has stopped.")
-    
+
+class Car(Vehicle):
+
     def change_gear(self, new_gear):
         print(f"Current gear is {new_gear}.")
 
